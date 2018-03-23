@@ -1,0 +1,22 @@
+{
+  "author": "David Paulsson <david@davidpaulsson.se>",
+  "name": "Glyf",
+  "version": "0.3.1",
+  "manifest_version": 2,
+  "description": "A new tab with news.",
+  "permissions": ["management"],
+  "content_security_policy":
+    "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon32.png"
+  }
+}
